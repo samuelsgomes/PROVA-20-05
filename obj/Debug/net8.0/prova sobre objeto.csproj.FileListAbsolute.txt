@@ -1,0 +1,14 @@
+C:\Users\487218624\Documents\prova sobre objeto\bin\Debug\net8.0\prova sobre objeto.exe
+C:\Users\487218624\Documents\prova sobre objeto\bin\Debug\net8.0\prova sobre objeto.deps.json
+C:\Users\487218624\Documents\prova sobre objeto\bin\Debug\net8.0\prova sobre objeto.runtimeconfig.json
+C:\Users\487218624\Documents\prova sobre objeto\bin\Debug\net8.0\prova sobre objeto.dll
+C:\Users\487218624\Documents\prova sobre objeto\bin\Debug\net8.0\prova sobre objeto.pdb
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\prova sobre objeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\prova sobre objeto.AssemblyInfoInputs.cache
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\prova sobre objeto.AssemblyInfo.cs
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\prova sobre objeto.csproj.CoreCompileInputs.cache
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\prova sobre objeto.dll
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\refint\prova sobre objeto.dll
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\prova sobre objeto.pdb
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\prova sobre objeto.genruntimeconfig.cache
+C:\Users\487218624\Documents\prova sobre objeto\obj\Debug\net8.0\ref\prova sobre objeto.dll
