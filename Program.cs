@@ -1,4 +1,5 @@
-﻿/////////////////////////////
+// questao 1 //////
+/////////////////////////////
 using prova_sobre_objeto;
 
 Pessoa pessoa =  new Pessoa();
@@ -22,8 +23,8 @@ diretor.Nome = "Elvis Presley";
 diretor.Salario = 10000;
 diretor.Apresentar();
 
-// questao 2 
-///////////////
+// questao 2 //////
+/////////////////////////////
 // using prova_sobre_objeto;
 
 
@@ -52,8 +53,8 @@ Console.WriteLine(" O estagiario recebe um salário com bonus de aproximadamente
 estagiarios.Mostrar();
 
 
-// questao 3
-///////////////
+// questao 3 /////
+////////////////////////////
 // using prova_sobre_objeto;
 
 ContaCorrente contacorrente = new ContaCorrente();
@@ -83,8 +84,8 @@ Console.WriteLine("Rendeu 10% !!! ");
 Console.WriteLine($"Saldo Conta Poupança: {contapoupanca.Saldo}");
 
 
-// // /questao 4
-///////////////
+// // /questao 4 ///////
+//////////////////////////////
 // using prova_sobre_objeto;
 
 Guerreiro guerreiro = new Guerreiro();
@@ -122,8 +123,8 @@ Console.WriteLine("Vida:" + arqueiro.Vida);
 Console.WriteLine("Ataque:" + arqueiro.Ataque);
 Console.WriteLine("Mana:" + arqueiro.Flechas);
 
-// // /questao 5
-///////////////
+// // /questao 5 //////
+///////////////////////////////
 // using prova_sobre_objeto;
 Pedido pedido = new Pedido();
 
