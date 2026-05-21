@@ -122,7 +122,7 @@ Console.WriteLine("Vida:" + arqueiro.Vida);
 Console.WriteLine("Ataque:" + arqueiro.Ataque);
 Console.WriteLine("Mana:" + arqueiro.Flechas);
 
-// // /questao 4
+// // /questao 5
 ///////////////
 // using prova_sobre_objeto;
 Pedido pedido = new Pedido();
