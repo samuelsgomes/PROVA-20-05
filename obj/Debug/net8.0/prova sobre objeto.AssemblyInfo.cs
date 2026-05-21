@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("prova sobre objeto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+933b1f0fc3ab5cdf191d81542d9bbcae9fe67768")]
 [assembly: System.Reflection.AssemblyProductAttribute("prova sobre objeto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("prova sobre objeto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

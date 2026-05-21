@@ -1,86 +1,140 @@
-﻿// /////////////////////////////
+﻿/////////////////////////////
+using prova_sobre_objeto;
+
+Pessoa pessoa =  new Pessoa();
+pessoa.Nome = "Samuel Gomes";
+pessoa.Idade = 17 ;
+pessoa.Apresentar();
+
+Aluno aluno =  new Aluno();
+aluno.Nome = "Mateus";
+aluno.Idade = 17 ;
+aluno.Nota = 9.5 ;
+aluno.Apresentar();
+
+Professor professor =  new Professor();
+professor.Nome = "Flexa BYD";
+professor.Salario = 10000;
+professor.Apresentar();
+
+Diretor diretor = new Diretor();
+diretor.Nome = "Elvis Presley";
+diretor.Salario = 10000;
+diretor.Apresentar();
+
+// questao 2 
+///////////////
 // using prova_sobre_objeto;
 
-// Pessoa pessoa =  new Pessoa();
-// Aluno aluno =  new Aluno();
-// Professor professor =  new Professor();
-// Diretor diretor = new Diretor();
 
-// /////////
-// pessoa.Nome = "Samuel Gomes";
-// pessoa.Idade = 17 ;
-// pessoa.Apresentar();
+Funcionario funcionario = new Funcionario();
+funcionario.Nome = "Samuel";
+funcionario.Salario = 1600;
+funcionario.Mostrar();
 
-// aluno.Nome = "Mateus";
-// aluno.Idade = 17 ;
-// aluno.Nota = 9.5 ;
-// aluno.Apresentar();
 
-// professor.Nome = "Flexa BYD";
-// professor.Salario = 10000;
-// professor.Apresentar();
+Gerente gerente = new Gerente();
+gerente.Nome = "Flexa/BYD";
+gerente.Mostrar();
+Console.WriteLine(" O gerente recebe um salário com bonus de aproximadamente" + (gerente.Salario + gerente.CalcularBonus()));
+Console.WriteLine("O bônus é R$" + (gerente.CalcularBonus()));
 
-// diretor.Nome = "Elvis Presley";
-// diretor.Salario = 10000;
-// diretor.Apresentar();
+Desenvolvedor desenvolvedor = new Desenvolvedor();
+desenvolvedor.Nome = "Marquinhos devs";
+Console.WriteLine("O bônus é R$" + (desenvolvedor.CalcularBonus()));
+Console.WriteLine(" O desenvolvedor recebe um salário com bonus de aproximadamente" + (desenvolvedor.Salario + desenvolvedor.CalcularBonus()));
+desenvolvedor.Mostrar();
 
-// //// questao 2 ////////
+Estagiarios estagiarios = new Estagiarios();
+estagiarios.Nome = "Samuel e Alice";
+Console.WriteLine("O bônus é R$" + (estagiarios.CalcularBonus()));
+Console.WriteLine(" O estagiario recebe um salário com bonus de aproximadamente" + (estagiarios.Salario + estagiarios.CalcularBonus()));
+estagiarios.Mostrar();
+
+
+// questao 3
+///////////////
 // using prova_sobre_objeto;
 
+ContaCorrente contacorrente = new ContaCorrente();
+Console.WriteLine("Valor Inicial = R$" + contacorrente.Saldo);
+contacorrente.Numero = 1;
+contacorrente.Titular = "Matheus";
+contacorrente.TaxaSaque = 5;
 
-// Funcionario funcionario = new Funcionario();
-// funcionario.Nome = "Samuel";
-// funcionario.Salario = 1600;
-// funcionario.Mostrar();
+Console.WriteLine("Depositando R$1000...");
+contacorrente.Depositar(1000);
+Console.WriteLine("R$" + contacorrente.Saldo);
+Console.WriteLine("Sacando R$100...");
+contacorrente.Sacar(100);
+Console.WriteLine($"Saldo Conta Corrente: {contacorrente.Saldo}");
+
+//
+ContaPoupanca contapoupanca = new ContaPoupanca();
+contapoupanca.Numero = 2;
+contapoupanca.Titular = "Carlos";
+
+Console.WriteLine("Depositando R$2000...");
+contapoupanca.Depositar(2000);
+Console.WriteLine("R$" + contapoupanca.Saldo);
+contapoupanca.Render(0.10);
+
+Console.WriteLine("Rendeu 10% !!! ");
+Console.WriteLine($"Saldo Conta Poupança: {contapoupanca.Saldo}");
 
 
-// Gerente gerente = new Gerente();
-// gerente.Nome = "Flexa/BYD";
-// gerente.Mostrar();
-// Console.WriteLine(" O gerente recebe um salário com bonus de aproximadamente" + (gerente.Salario + gerente.CalcularBonus()));
-// Console.WriteLine("O bônus é R$" + (gerente.CalcularBonus()));
-
-// Desenvolvedor desenvolvedor = new Desenvolvedor();
-// desenvolvedor.Nome = "Marquinhos devs";
-// Console.WriteLine("O bônus é R$" + (desenvolvedor.CalcularBonus()));
-// Console.WriteLine(" O desenvolvedor recebe um salário com bonus de aproximadamente" + (desenvolvedor.Salario + desenvolvedor.CalcularBonus()));
-// desenvolvedor.Mostrar();
-
-// Estagiarios estagiarios = new Estagiarios();
-// estagiarios.Nome = "Samuel e Alice";
-// Console.WriteLine("O bônus é R$" + (estagiarios.CalcularBonus()));
-// Console.WriteLine(" O estagiario recebe um salário com bonus de aproximadamente" + (estagiarios.Salario + estagiarios.CalcularBonus()));
-// estagiarios.Mostrar();
-
-
-// /questao 3
+// // /questao 4
+///////////////
 // using prova_sobre_objeto;
 
-// ContaCorrente contacorrente = new ContaCorrente();
+Guerreiro guerreiro = new Guerreiro();
+guerreiro.Nome = "Hades";
+guerreiro.Vida = 150;
+guerreiro.Ataque = 50;
+guerreiro.Espada = " Bidente ";
 
-// Console.WriteLine("Valor Inicial = R$" + contacorrente.Saldo);
+Console.WriteLine("Nome:" + guerreiro.Nome);
+Console.WriteLine("Vida:" + guerreiro.Vida);
+Console.WriteLine("Ataque:" + guerreiro.Ataque);
+Console.WriteLine("Espada:" + guerreiro.Espada);
+Console.WriteLine();
 
-// contacorrente.Numero = 1;
-// contacorrente.Titular = "Matheus";
+Mago mago = new Mago();
+mago.Nome = "Orion";
+mago.Vida = -10;
+mago.Ataque = 30;
+mago.Mana = 100;
 
-// contacorrente.TaxaSaque = 5;
+Console.WriteLine("Nome:" + mago.Nome);
+Console.WriteLine("Vida:" + mago.Vida);
+Console.WriteLine("Ataque:" + mago.Ataque);
+Console.WriteLine("Mana:" + mago.Mana);
+Console.WriteLine();
 
-// Console.WriteLine("Depositando R$1000...");
-// contacorrente.Depositar(1000);
-// Console.WriteLine("R$" + contacorrente.Saldo);
-// Console.WriteLine("Sacando R$100...");
-// contacorrente.Sacar(100);
-// Console.WriteLine($"Saldo Conta Corrente: {contacorrente.Saldo}");
+Arqueiro arqueiro = new Arqueiro();
+arqueiro.Nome = "Robin Hood";
+arqueiro.Vida = 80;
+arqueiro.Ataque = 40;
+arqueiro.Flechas = 25;
 
+Console.WriteLine("Nome:" + arqueiro.Nome);
+Console.WriteLine("Vida:" + arqueiro.Vida);
+Console.WriteLine("Ataque:" + arqueiro.Ataque);
+Console.WriteLine("Mana:" + arqueiro.Flechas);
 
-// ContaPoupanca contapoupanca = new ContaPoupanca();
-// contapoupanca.Numero = 2;
-// contapoupanca.Titular = "Carlos";
+// // /questao 4
+///////////////
+// using prova_sobre_objeto;
+Pedido pedido = new Pedido();
 
-// Console.WriteLine("Depositando R$2000...");
-// contapoupanca.Depositar(2000);
-// Console.WriteLine("R$" + contapoupanca.Saldo);
-// contapoupanca.Render(0.10);
+PedidoNormal pedidoN = new PedidoNormal();
+pedidoN.Valor = 100;
+pedidoN.CalcularEntrega();
 
-// Console.WriteLine("Rendeu 10% !!! ");
-// Console.WriteLine($"Saldo Conta Poupança: {contapoupanca.Saldo}");
+PedidoExpresso pedidoE = new PedidoExpresso();
+pedidoE.Valor = 100;
+pedidoE.CalcularEntrega();
+
+PedidoInternacional pedidoI = new PedidoInternacional();
+pedidoI.Valor = 100;
+pedidoI.CalcularEntrega();

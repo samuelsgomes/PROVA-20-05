@@ -1,4 +1,4 @@
-namespace prova_sobre_objeto.ATIVIDADE_2;
+namespace prova_sobre_objeto
 {
     public class Funcionario
     {

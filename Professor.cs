@@ -1,4 +1,4 @@
-namespace prova_sobre_objeto.ATIVADE_1;
+namespace prova_sobre_objeto
 {
     public class  Professor : Pessoa
     {
